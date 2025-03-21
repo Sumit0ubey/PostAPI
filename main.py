@@ -3,7 +3,6 @@ from fastapi.responses import JSONResponse # type: ignore
 from fastapi import FastAPI, status # type: ignore
 
 from .Routers import post, user, like, auth
-# from .config import settings
 from .database import engine
 from . import models
 
