@@ -36,7 +36,7 @@ def root():
         },
         "The project was developed in": "3 days",
         "Start Date": "14-03-25",
-        "End Date": ""
+        "End Date": "21-03-25"
     }
 
     return JSONResponse(content=informations, status_code=200)
