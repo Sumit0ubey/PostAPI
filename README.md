@@ -59,11 +59,6 @@ Ensure you have the following installed on your system:
 | POST   | `/auth/login` | login as a user     |
 | GET    | `/auth/logout`| logout a user       |
 
-## Running Tests
-To run tests, use:
-```bash
-pytest
-```
 
 ## Author
 Developed by [Sumit dubey](https://github.com/Sumit0ubey).
