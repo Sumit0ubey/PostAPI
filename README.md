@@ -65,9 +65,6 @@ To run tests, use:
 pytest
 ```
 
-## License
-This project is licensed under the MIT License.
-
 ## Author
 Developed by [Sumit dubey](https://github.com/Sumit0ubey).
 
