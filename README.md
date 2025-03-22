@@ -1,4 +1,4 @@
-<h2>PostAPP</h2>
+## PostAPP
 
 PostAPP is a RESTful API built using **FastAPI** and **PostgreSQL** to manage posts efficiently. It provides CRUD operations and follows RESTful principles, ensuring high performance and seamless integration.
 
@@ -46,11 +46,18 @@ Ensure you have the following installed on your system:
 
 | Method | Endpoint       | Description          |
 |--------|---------------|----------------------|
+| GET    | `/`           | Retrieve APP info   |
 | GET    | `/posts`      | Retrieve all posts  |
 | GET    | `/posts/{id}` | Get a specific post |
 | POST   | `/posts`      | Create a new post   |
 | PUT    | `/posts/{id}` | Update a post       |
 | DELETE | `/posts/{id}` | Delete a post       |
+| PUT    | `/likes`      |Like a specific posts|
+| POST   | `/users`      | Create a new user   |
+| GET    | `/users/`     | Get all user        |
+| GET    | `/users/{id}` | Get a user          |
+| POST   | `/auth/login` | login as a user     |
+| GET    | `/auth/logout`| logout a user       |
 
 ## Running Tests
 To run tests, use:
@@ -62,5 +69,5 @@ pytest
 This project is licensed under the MIT License.
 
 ## Author
-Developed by [Sumit0ubey](https://github.com/Sumit0ubey).
+Developed by [Sumit dubey](https://github.com/Sumit0ubey).
 
